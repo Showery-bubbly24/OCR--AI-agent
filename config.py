@@ -1,6 +1,6 @@
 import os
 
 
-GIGACHAT_API_SECRET = '<Api key>'
-LICENCE_FILE = '<path to file sert>'
+GIGACHAT_API_SECRET = '<Secret API key>'
+LICENCE_FILE = '<Path to file>'
 OCR_LANGUAGES = ['ru', 'en']
