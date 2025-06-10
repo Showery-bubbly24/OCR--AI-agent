@@ -1,6 +1,6 @@
 import os
 
 
-GIGACHAT_API_SECRET = 'NDBjNTc5MTctMWZjZS00NDQwLTkxNzQtNThjMmYzNDliNTkwOjU3N2ZkZGMwLWFkNGEtNDVlMy1hM2MyLTk5OGMzNzg4ZjEzNA=='
-LICENCE_FILE = '/Users/daniilbelokonev/Documents/russiantrustedca/russiantrustedca.pem'
+GIGACHAT_API_SECRET = '<Secret API key>'
+LICENCE_FILE = '<Path to file>'
 OCR_LANGUAGES = ['ru', 'en']
