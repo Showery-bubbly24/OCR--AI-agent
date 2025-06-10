@@ -1,18 +1,25 @@
+import logging
 from PyQt5.QtWidgets import (
     QMainWindow, QPushButton, QFileDialog, QTextEdit, QLabel,
     QVBoxLayout, QWidget, QLineEdit, QHBoxLayout
 )
-from config import OCR_LANGUAGES
-from services.ocr_processing import OCRREADER
-from services.gigachat_api import GigaChatCorrector
+from src.services.ocr_processing import OCRREADER
+from src.services.gigachat_api import GigaChatCorrector
+
+logger = logging.getLogger("AppLogger")
 
 
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.ocr = OCRREADER(['ru', 'en'])
-        self.corrector = GigaChatCorrector()
-        self.init_ui()
+        try:
+            logger.info("Initializing GUI")
+            self.ocr = OCRREADER(['ru', 'en'])
+            self.corrector = GigaChatCorrector()
+            self.init_ui()
+        except Exception as e:
+            logger.critical("Application initialization failed: %s", e)
+            raise
 
     def init_ui(self):
         self.setWindowTitle("OCR + GigaChat Correction")
@@ -58,16 +65,24 @@ class MainWindow(QMainWindow):
                 extracted_text = self.ocr.extract_text(file_path)
                 self.text_area.setPlainText(extracted_text)
                 self.status_label.setText("Recognition complete")
+                logger.info("OCR successful for: %s", file_path)
             except Exception as e:
-                self.status_label.setText(f"Recognition error: {e}")
+                error_msg = f"Recognition error: {e}"
+                self.status_label.setText(error_msg)
+                logger.error(error_msg)
+                logger.debug("Image path: %s", file_path)
 
     def correct_text_with_prompt(self):
         text = self.text_area.toPlainText()
-        prompt = self.prompt_input.text() or None  # Если пусто — None
+        prompt = self.prompt_input.text() or None
         if text.strip():
             try:
                 corrected_text = self.corrector.correct_text(text, prompt)
                 self.text_area.setPlainText(corrected_text)
                 self.status_label.setText("Correction completed")
+                logger.info("Text correction successful")
             except Exception as e:
-                self.status_label.setText(f"Correction error: {e}")
+                error_msg = f"Correction error: {e}"
+                self.status_label.setText(error_msg)
+                logger.error(error_msg)
+                logger.debug("Text sample: %s", text[:200])

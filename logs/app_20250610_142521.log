@@ -1,0 +1,9 @@
+2025-06-10 14:25:21,863 - AppLogger - INFO - Initializing GUI
+2025-06-10 14:25:21,863 - AppLogger - INFO - Loading OCR
+2025-06-10 14:25:21,863 - easyocr.easyocr - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-06-10 14:25:31,501 - AppLogger - INFO - Extracting text from image: /Users/daniilbelokonev/PycharmProjects/aiAgent/material/photo.jpg
+2025-06-10 14:25:39,440 - AppLogger - INFO - OCR successful for: /Users/daniilbelokonev/PycharmProjects/aiAgent/material/photo.jpg
+2025-06-10 14:26:15,809 - AppLogger - INFO - Request details - Text: МИННСТЕРСТВО ТРАНСПОРТА Индивидуальному предпринимателю РОССИЙСКОЙ ФЕДЕРАЦИИ ФЕДЕРАЛЬНОЕ БЮДЖЕТНОЕ У, Prompt: <Promt>: Задача: Исправь граммитические ошибки в передаваемом тебе тексте. В ответ передай тот же, но уже исправленный текст. 
+2025-06-10 14:26:16,095 - httpx - INFO - HTTP Request: POST https://ngw.devices.sberbank.ru:9443/api/v2/oauth "HTTP/1.1 200 OK"
+2025-06-10 14:26:18,621 - httpx - INFO - HTTP Request: POST https://gigachat.devices.sberbank.ru/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-10 14:26:18,632 - AppLogger - INFO - Text correction successful

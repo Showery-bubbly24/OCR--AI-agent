@@ -1,0 +1,6 @@
+2025-06-10 19:23:42,618 - AppLogger - INFO - Initializing GUI
+2025-06-10 19:23:42,618 - AppLogger - INFO - Loading OCR
+2025-06-10 19:23:51,090 - AppLogger - INFO - Extracting text from image: /Users/daniilbelokonev/PycharmProjects/aiAgent/material/photo.jpg
+2025-06-10 19:23:58,961 - AppLogger - INFO - OCR successful for: /Users/daniilbelokonev/PycharmProjects/aiAgent/material/photo.jpg
+2025-06-10 19:24:28,670 - AppLogger - INFO - Request details - Text: МИННСТЕРСТВО ТРАНСПОРТА Индивидуальному предпринимателю РОССИЙСКОЙ ФЕДЕРАЦИИ ФЕДЕРАЛЬНОЕ БЮДЖЕТНОЕ У, Prompt: <Promt>: Задача: Исправь граммитические ошибки в передаваемом тебе тексте. В ответ передай тот же, но уже исправленный текст. 
+2025-06-10 19:24:31,013 - AppLogger - INFO - Text correction successful
