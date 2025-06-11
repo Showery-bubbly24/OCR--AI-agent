@@ -1,0 +1,39 @@
+2025-06-11 12:04:14,028 - AppLogger - INFO - Initializing GUI
+2025-06-11 12:04:14,028 - AppLogger - INFO - Loading OCR
+2025-06-11 12:04:16,082 - AppLogger - INFO - Database initialized
+2025-06-11 12:04:26,886 - AppLogger - INFO - Extracting text from image: /Users/daniilbelokonev/PycharmProjects/aiAgent/material/photo.jpg
+2025-06-11 12:04:34,889 - AppLogger - INFO - OCR successful for: /Users/daniilbelokonev/PycharmProjects/aiAgent/material/photo.jpg
+2025-06-11 12:04:34,890 - AppLogger - INFO - Operation saved with id 1
+2025-06-11 12:04:37,145 - AppLogger - INFO - Request details - Text: МИННСТЕРСТВО ТРАНСПОРТА Индивидуальному предпринимателю РОССИЙСКОЙ ФЕДЕРАЦИИ ФЕДЕРАЛЬНОЕ БЮДЖЕТНОЕ У, Prompt: <Promt>: Задача: Исправь граммитические ошибки в передаваемом тебе тексте. В ответ передай тот же, но уже исправленный текст. 
+2025-06-11 12:04:37,290 - AppLogger - ERROR - GigaChat API request failed: [Errno 2] No such file or directory
+2025-06-11 12:04:37,290 - AppLogger - ERROR - Correction error: [Errno 2] No such file or directory
+2025-06-11 12:04:42,377 - AppLogger - INFO - Request details - Text: МИННСТЕРСТВО ТРАНСПОРТА Индивидуальному предпринимателю РОССИЙСКОЙ ФЕДЕРАЦИИ ФЕДЕРАЛЬНОЕ БЮДЖЕТНОЕ У, Prompt: <Promt>: Задача: Исправь граммитические ошибки в передаваемом тебе тексте. В ответ передай тот же, но уже исправленный текст. 
+2025-06-11 12:04:42,380 - AppLogger - ERROR - GigaChat API request failed: [Errno 2] No such file or directory
+2025-06-11 12:04:42,380 - AppLogger - ERROR - Correction error: [Errno 2] No such file or directory
+2025-06-11 12:04:44,601 - AppLogger - INFO - Request details - Text: МИННСТЕРСТВО ТРАНСПОРТА Индивидуальному предпринимателю РОССИЙСКОЙ ФЕДЕРАЦИИ ФЕДЕРАЛЬНОЕ БЮДЖЕТНОЕ У, Prompt: <Promt>: Задача: Исправь граммитические ошибки в передаваемом тебе тексте. В ответ передай тот же, но уже исправленный текст. 
+2025-06-11 12:04:44,603 - AppLogger - ERROR - GigaChat API request failed: [Errno 2] No such file or directory
+2025-06-11 12:04:44,603 - AppLogger - ERROR - Correction error: [Errno 2] No such file or directory
+2025-06-11 12:04:55,242 - AppLogger - INFO - Request details - Text: МИННСТЕРСТВО ТРАНСПОРТА Индивидуальному предпринимателю РОССИЙСКОЙ ФЕДЕРАЦИИ ФЕДЕРАЛЬНОЕ БЮДЖЕТНОЕ У, Prompt: <Promt>: Задача: Исправь граммитические ошибки в передаваемом тебе тексте. В ответ передай тот же, но уже исправленный текст. 
+2025-06-11 12:04:55,244 - AppLogger - ERROR - GigaChat API request failed: [Errno 2] No such file or directory
+2025-06-11 12:04:55,244 - AppLogger - ERROR - Correction error: [Errno 2] No such file or directory
+2025-06-11 12:04:55,912 - AppLogger - INFO - Request details - Text: МИННСТЕРСТВО ТРАНСПОРТА Индивидуальному предпринимателю РОССИЙСКОЙ ФЕДЕРАЦИИ ФЕДЕРАЛЬНОЕ БЮДЖЕТНОЕ У, Prompt: <Promt>: Задача: Исправь граммитические ошибки в передаваемом тебе тексте. В ответ передай тот же, но уже исправленный текст. 
+2025-06-11 12:04:55,915 - AppLogger - ERROR - GigaChat API request failed: [Errno 2] No such file or directory
+2025-06-11 12:04:55,915 - AppLogger - ERROR - Correction error: [Errno 2] No such file or directory
+2025-06-11 12:04:56,225 - AppLogger - INFO - Request details - Text: МИННСТЕРСТВО ТРАНСПОРТА Индивидуальному предпринимателю РОССИЙСКОЙ ФЕДЕРАЦИИ ФЕДЕРАЛЬНОЕ БЮДЖЕТНОЕ У, Prompt: <Promt>: Задача: Исправь граммитические ошибки в передаваемом тебе тексте. В ответ передай тот же, но уже исправленный текст. 
+2025-06-11 12:04:56,228 - AppLogger - ERROR - GigaChat API request failed: [Errno 2] No such file or directory
+2025-06-11 12:04:56,228 - AppLogger - ERROR - Correction error: [Errno 2] No such file or directory
+2025-06-11 12:04:56,433 - AppLogger - INFO - Request details - Text: МИННСТЕРСТВО ТРАНСПОРТА Индивидуальному предпринимателю РОССИЙСКОЙ ФЕДЕРАЦИИ ФЕДЕРАЛЬНОЕ БЮДЖЕТНОЕ У, Prompt: <Promt>: Задача: Исправь граммитические ошибки в передаваемом тебе тексте. В ответ передай тот же, но уже исправленный текст. 
+2025-06-11 12:04:56,435 - AppLogger - ERROR - GigaChat API request failed: [Errno 2] No such file or directory
+2025-06-11 12:04:56,435 - AppLogger - ERROR - Correction error: [Errno 2] No such file or directory
+2025-06-11 12:04:56,622 - AppLogger - INFO - Request details - Text: МИННСТЕРСТВО ТРАНСПОРТА Индивидуальному предпринимателю РОССИЙСКОЙ ФЕДЕРАЦИИ ФЕДЕРАЛЬНОЕ БЮДЖЕТНОЕ У, Prompt: <Promt>: Задача: Исправь граммитические ошибки в передаваемом тебе тексте. В ответ передай тот же, но уже исправленный текст. 
+2025-06-11 12:04:56,623 - AppLogger - ERROR - GigaChat API request failed: [Errno 2] No such file or directory
+2025-06-11 12:04:56,623 - AppLogger - ERROR - Correction error: [Errno 2] No such file or directory
+2025-06-11 12:04:56,799 - AppLogger - INFO - Request details - Text: МИННСТЕРСТВО ТРАНСПОРТА Индивидуальному предпринимателю РОССИЙСКОЙ ФЕДЕРАЦИИ ФЕДЕРАЛЬНОЕ БЮДЖЕТНОЕ У, Prompt: <Promt>: Задача: Исправь граммитические ошибки в передаваемом тебе тексте. В ответ передай тот же, но уже исправленный текст. 
+2025-06-11 12:04:56,801 - AppLogger - ERROR - GigaChat API request failed: [Errno 2] No such file or directory
+2025-06-11 12:04:56,801 - AppLogger - ERROR - Correction error: [Errno 2] No such file or directory
+2025-06-11 12:04:56,968 - AppLogger - INFO - Request details - Text: МИННСТЕРСТВО ТРАНСПОРТА Индивидуальному предпринимателю РОССИЙСКОЙ ФЕДЕРАЦИИ ФЕДЕРАЛЬНОЕ БЮДЖЕТНОЕ У, Prompt: <Promt>: Задача: Исправь граммитические ошибки в передаваемом тебе тексте. В ответ передай тот же, но уже исправленный текст. 
+2025-06-11 12:04:56,970 - AppLogger - ERROR - GigaChat API request failed: [Errno 2] No such file or directory
+2025-06-11 12:04:56,970 - AppLogger - ERROR - Correction error: [Errno 2] No such file or directory
+2025-06-11 12:04:58,912 - AppLogger - INFO - Request details - Text: МИННСТЕРСТВО ТРАНСПОРТА Индивидуальному предпринимателю РОССИЙСКОЙ ФЕДЕРАЦИИ ФЕДЕРАЛЬНОЕ БЮДЖЕТНОЕ У, Prompt: <Promt>: Задача: Исправь граммитические ошибки в передаваемом тебе тексте. В ответ передай тот же, но уже исправленный текст. 
+2025-06-11 12:04:58,914 - AppLogger - ERROR - GigaChat API request failed: [Errno 2] No such file or directory
+2025-06-11 12:04:58,914 - AppLogger - ERROR - Correction error: [Errno 2] No such file or directory

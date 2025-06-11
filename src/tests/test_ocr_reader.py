@@ -21,7 +21,7 @@ def patch_cv2(monkeypatch):
     def dummy_imread(path):
         return np.zeros((100, 100, 3), dtype=np.uint8)  # Поддельное изображение
 
-    monkeypatch.setattr("services.ocr_processing.cv2.imread", dummy_imread)
+    monkeypatch.setattr("src.services.ocr_processing.cv2.imread", dummy_imread)
 
 
 def test_extract_text_success(patch_easyocr, patch_cv2):
@@ -32,7 +32,7 @@ def test_extract_text_success(patch_easyocr, patch_cv2):
 
 def test_extract_text_file_not_found(patch_easyocr, monkeypatch):
     # Подменяем cv2.imread, чтобы возвращал None (симулируем отсутствие файла)
-    monkeypatch.setattr("services.ocr_processing.cv2.imread", lambda path: None)
+    monkeypatch.setattr("src.services.ocr_processing.cv2.imread", lambda path: None)
 
     reader = OCRREADER(['en'])
     with pytest.raises(FileNotFoundError):

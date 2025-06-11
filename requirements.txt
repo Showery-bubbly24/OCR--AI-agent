@@ -5,5 +5,3 @@ easyocr
 numpy
 gigachat
 PyQt5
-opencv-python
-numpy

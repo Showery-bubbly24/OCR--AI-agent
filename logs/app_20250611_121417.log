@@ -1,0 +1,10 @@
+2025-06-11 12:14:17,847 - AppLogger - INFO - Initializing GUI
+2025-06-11 12:14:17,847 - AppLogger - INFO - Loading OCR
+2025-06-11 12:14:19,984 - AppLogger - INFO - Database initialized
+2025-06-11 12:14:20,018 - AppLogger - INFO - Database initialized
+2025-06-11 12:14:57,440 - AppLogger - INFO - Extracting text from image: /Users/daniilbelokonev/PycharmProjects/aiAgent/material/photo.jpg
+2025-06-11 12:15:05,604 - AppLogger - INFO - Operation saved with id 4
+2025-06-11 12:15:05,605 - AppLogger - INFO - OCR successful: /Users/daniilbelokonev/PycharmProjects/aiAgent/material/photo.jpg
+2025-06-11 12:16:26,365 - AppLogger - INFO - Request details - Text: МИННСТЕРСТВО ТРАНСПОРТА Индивидуальному предпринимателю РОССИЙСКОЙ ФЕДЕРАЦИИ ФЕДЕРАЛЬНОЕ БЮДЖЕТНОЕ У, Prompt: Исправь ошибки в тексте, выведи главную мысль данного текста, о чем он
+2025-06-11 12:16:27,279 - AppLogger - INFO - Operation saved with id 5
+2025-06-11 12:16:27,280 - AppLogger - INFO - Correction completed and saved.

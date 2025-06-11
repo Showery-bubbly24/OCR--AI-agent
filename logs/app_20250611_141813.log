@@ -1,0 +1,6 @@
+2025-06-11 14:18:13,281 - AppLogger - INFO - Initializing GUI
+2025-06-11 14:18:13,281 - AppLogger - INFO - Loading OCR
+2025-06-11 14:18:15,337 - AppLogger - INFO - Database initialized
+2025-06-11 14:18:15,377 - AppLogger - INFO - Database initialized
+2025-06-11 14:18:32,431 - AppLogger - INFO - Deleted operation 1: True
+2025-06-11 14:19:04,191 - AppLogger - INFO - Deleted operation 3: True
