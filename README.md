@@ -11,7 +11,8 @@
 
 ## 📸 Превью
 
-![Screenshot 2025-06-11 at 3.19.48 PM.png](..%2F..%2F..%2F..%2Fvar%2Ffolders%2Fth%2Fsbl35b8x2_q1x3973rds7ddr0000gn%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_b0dIBd%2FScreenshot%202025-06-11%20at%203.19.48%E2%80%AFPM.png)
+![](./screenshots/main.png)
+
 
 ---
 
